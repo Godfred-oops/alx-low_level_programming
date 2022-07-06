@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - prints all natural numbers from input to 98 in order
  * @n: the number to begin counting at
