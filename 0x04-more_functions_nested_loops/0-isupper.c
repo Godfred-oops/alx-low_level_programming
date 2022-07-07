@@ -7,9 +7,9 @@
  * Return: 1 for uppercase, 0 for lowercase
  */
 
-int int _isupper(int c)
+int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
