@@ -24,7 +24,7 @@ int factorial(int n)
 
 	else
 	{
-		result += factorial(n - 1);
+		result *= factorial(n - 1);
 	}
 
 	return (result);
